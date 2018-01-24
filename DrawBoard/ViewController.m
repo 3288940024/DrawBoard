@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "DrawBoardView.h"
 
-@interface ViewController ()
+@interface ViewController () 
+/** 画板 */
+@property (nonatomic,strong) DrawBoardView *draw;
 
 @end
 
@@ -16,14 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    // 画板
+    self.draw = [[DrawBoardView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.draw];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

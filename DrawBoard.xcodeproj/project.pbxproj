@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF39E4E72012F45A00AC2D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF39E4E62012F45A00AC2D92 /* Assets.xcassets */; };
+		CF8089F02015CA3300C84A5A /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8089EF2015CA3300C84A5A /* UIColor+Extension.m */; };
+		CF8089F32015E26D00C84A5A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8089F22015E26D00C84A5A /* UIView+Extension.m */; };
 		CFB608402011C7210020FB69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB6083F2011C7210020FB69 /* AppDelegate.m */; };
 		CFB608432011C7210020FB69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB608422011C7210020FB69 /* ViewController.m */; };
 		CFB608462011C7210020FB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB608442011C7210020FB69 /* Main.storyboard */; };
-		CFB608482011C7210020FB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB608472011C7210020FB69 /* Assets.xcassets */; };
 		CFB6084B2011C7210020FB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB608492011C7210020FB69 /* LaunchScreen.storyboard */; };
 		CFB6084E2011C7210020FB69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB6084D2011C7210020FB69 /* main.m */; };
 		CFB608582011C7210020FB69 /* DrawBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB608572011C7210020FB69 /* DrawBoardTests.m */; };
 		CFB608632011C7210020FB69 /* DrawBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB608622011C7210020FB69 /* DrawBoardUITests.m */; };
+		CFB608722011C9140020FB69 /* DrawBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB608712011C9140020FB69 /* DrawBoardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF39E4E62012F45A00AC2D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8089EE2015CA3300C84A5A /* UIColor+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		CF8089EF2015CA3300C84A5A /* UIColor+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		CF8089F12015E26D00C84A5A /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		CF8089F22015E26D00C84A5A /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		CFB6083B2011C7210020FB69 /* DrawBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB6083E2011C7210020FB69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CFB6083F2011C7210020FB69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CFB608412011C7210020FB69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CFB608422011C7210020FB69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CFB608452011C7210020FB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CFB608472011C7210020FB69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFB6084A2011C7210020FB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFB6084C2011C7210020FB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFB6084D2011C7210020FB69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +58,8 @@
 		CFB6085E2011C7210020FB69 /* DrawBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB608622011C7210020FB69 /* DrawBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBoardUITests.m; sourceTree = "<group>"; };
 		CFB608642011C7210020FB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB608702011C9140020FB69 /* DrawBoardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawBoardView.h; sourceTree = "<group>"; };
+		CFB608712011C9140020FB69 /* DrawBoardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBoardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +90,12 @@
 		CFB608322011C7210020FB69 = {
 			isa = PBXGroup;
 			children = (
+				CF8089F12015E26D00C84A5A /* UIView+Extension.h */,
+				CF8089F22015E26D00C84A5A /* UIView+Extension.m */,
+				CF8089EE2015CA3300C84A5A /* UIColor+Extension.h */,
+				CF8089EF2015CA3300C84A5A /* UIColor+Extension.m */,
+				CFB608702011C9140020FB69 /* DrawBoardView.h */,
+				CFB608712011C9140020FB69 /* DrawBoardView.m */,
 				CFB6083D2011C7210020FB69 /* DrawBoard */,
 				CFB608562011C7210020FB69 /* DrawBoardTests */,
 				CFB608612011C7210020FB69 /* DrawBoardUITests */,
@@ -106,10 +121,10 @@
 				CFB608412011C7210020FB69 /* ViewController.h */,
 				CFB608422011C7210020FB69 /* ViewController.m */,
 				CFB608442011C7210020FB69 /* Main.storyboard */,
-				CFB608472011C7210020FB69 /* Assets.xcassets */,
 				CFB608492011C7210020FB69 /* LaunchScreen.storyboard */,
 				CFB6084C2011C7210020FB69 /* Info.plist */,
 				CFB6084D2011C7210020FB69 /* main.m */,
+				CF39E4E62012F45A00AC2D92 /* Assets.xcassets */,
 			);
 			path = DrawBoard;
 			sourceTree = "<group>";
@@ -239,7 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFB6084B2011C7210020FB69 /* LaunchScreen.storyboard in Resources */,
-				CFB608482011C7210020FB69 /* Assets.xcassets in Resources */,
+				CF39E4E72012F45A00AC2D92 /* Assets.xcassets in Resources */,
 				CFB608462011C7210020FB69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8089F32015E26D00C84A5A /* UIView+Extension.m in Sources */,
 				CFB608432011C7210020FB69 /* ViewController.m in Sources */,
 				CFB6084E2011C7210020FB69 /* main.m in Sources */,
+				CF8089F02015CA3300C84A5A /* UIColor+Extension.m in Sources */,
 				CFB608402011C7210020FB69 /* AppDelegate.m in Sources */,
+				CFB608722011C9140020FB69 /* DrawBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +449,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2Z675ZQK7;
 				INFOPLIST_FILE = DrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Foundation.DrawBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J2Z675ZQK7;
 				INFOPLIST_FILE = DrawBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Foundation.DrawBoard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
